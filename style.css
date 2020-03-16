@@ -3,14 +3,12 @@
   width: 500px;
 }
 
-#header, #footer {
+#header {
   background-color: #9BCE1D;
 }
 
-#header {
-}
-
 #footer {
+  background-color: #9BCE1D;
 }
 
 #main {
