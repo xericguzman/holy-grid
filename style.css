@@ -7,10 +7,6 @@
   background-color: #9BCE1D;
 }
 
-#footer {
-  background-color: #9BCE1D;
-}
-
 #main {
   background-color: #F7F5D8
 }
@@ -29,4 +25,8 @@
 
 #ad-area {
   background-color: cornflowerblue;
+}
+
+#footer {
+  background-color: #9BCE1D;
 }
