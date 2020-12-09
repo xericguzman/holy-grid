@@ -1,32 +1,29 @@
 #app {
-  height: 300px;
-  width: 500px;
+  height: 600px;
+  width: 800px;
+  font-size: 3em;
 }
 
 #header {
-  background-color: #9BCE1D;
-}
-
-#main {
-  background-color: #F7F5D8
-}
-
-#article-1 {
-  background-color: lightcoral;
-}
-
-#article-2 {
-  background-color: violet;
-}
-
-#nav {
-  background-color: cornflowerblue;
-}
-
-#ad-area {
-  background-color: cornflowerblue;
+  background-color: red;
 }
 
 #footer {
-  background-color: #9BCE1D;
+  background-color: indigo;
+}
+
+#article-1 {
+  background-color: yellow;
+}
+
+#article-2 {
+  background-color: green;
+}
+
+#nav {
+  background-color: orange;
+}
+
+#ad-area {
+  background-color: blue;
 }
