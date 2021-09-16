@@ -2,28 +2,51 @@
   height: 600px;
   width: 800px;
   font-size: 3em;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 #header {
   background-color: red;
+  grid-column-start: 1;
+  grid-column-end: span 6;
 }
 
 #footer {
   background-color: indigo;
+  grid-column-start: 1;
+  grid-column-end: 6;
 }
 
 #article-1 {
   background-color: yellow;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 #article-2 {
   background-color: green;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+
 }
 
 #nav {
   background-color: orange;
+  grid-row-start: 2;
+  grid-row-end: 6;
 }
 
 #ad-area {
   background-color: blue;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 6;
 }
